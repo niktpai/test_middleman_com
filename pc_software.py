@@ -2,7 +2,7 @@
 import serial
 import time
 
-PC_PORT = '/dev/ttyVirtual1'  
+PC_PORT = '/dev/pts/3'  
 
 ser = serial.Serial(PC_PORT, 9600, timeout=1)
 
