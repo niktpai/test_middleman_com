@@ -1,10 +1,8 @@
 import serial
 import time
 
-# UART port for communication with Pi 2
-UART_PORT = '/dev/ttyAMA10'  # or '/dev/serial0', depending on your Pi configuration
-# Virtual port for communication with PC software
-PC_PORT = '/dev/pts/2'  # Use this for the middle-man script
+UART_PORT = '/dev/ttyAMA0'  
+PC_PORT = '/dev/pts/2'  
 BAUD_RATE = 9600
 
 def setup_serial(port):
