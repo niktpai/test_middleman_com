@@ -3,7 +3,7 @@ import serial
 import time
 
 # Set up the serial connection
-ser = serial.Serial('/dev/ttyAMA0', 9600, timeout=1)
+ser = serial.Serial('/dev/pts/2', 9600, timeout=1)
 
 try:
     while True:
