@@ -1,7 +1,7 @@
 import serial
 import time
 
-UART_PORT = '/dev/ttyAMA0'  
+UART_PORT = '/dev/ttyACM0'  
 PC_PORT = '/dev/pts/2'  
 BAUD_RATE = 9600
 

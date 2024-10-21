@@ -2,7 +2,7 @@
 import serial
 import time
 
-UART_PORT = '/dev/ttyAMA0'  
+UART_PORT = '/dev/ttyACM0'  
 PC_PORT = '/dev/pts/3'  
 
 ser = serial.Serial(PC_PORT, 9600, timeout=1)
