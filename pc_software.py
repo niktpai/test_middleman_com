@@ -2,8 +2,10 @@
 import serial
 import time
 
-# Set up the serial connection
-ser = serial.Serial('/dev/pts/3', 9600, timeout=1)
+UART_PORT = '/dev/ttyAMA10'  
+PC_PORT = '/dev/pts/3'  
+
+ser = serial.Serial(UART_PORT, 9600, timeout=1)
 
 try:
     while True:
