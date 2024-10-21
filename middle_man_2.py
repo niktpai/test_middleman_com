@@ -1,8 +1,8 @@
 import serial
 import time
 
-UART_PORT = '/dev/ttyACM0'
-PC_PORT = '/dev/pts/2'
+UART_PORT = '/dev/ttyVirtual0' 
+PC_PORT = '/dev/ttyVirtual1'  
 BAUD_RATE = 9600
 
 def setup_serial(port):
